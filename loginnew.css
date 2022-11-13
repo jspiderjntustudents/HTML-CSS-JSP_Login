@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(186, 59%, 70%);
+}
+
+@import url(); :root {
+
+    --font-style: 'Nunito Sans', sans-serif;
+}
+
+body {
+    font-family: var(--font-style);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 440px;
+    left: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #151515;
+    box-shadow: 0px 1px 4px #B72C2C;
+    border-radius: 35px;       
+ }
+        
+h1 {
+            color: #3816e3;
+            margin: auto;
+   }
+   input {
+    width: 75%;
+    margin: auto;
+    background-color: #DBBDBD;
+    padding: 2%;
+    border-radius: 25px;
+    border: 0;
+}
+
+input::placeholder {
+    color: #333030;
+}
+
+button {
+    width: 20%;
+    padding: 1%;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    background-color: hsl(69, 73%, 51%);
+    border: 0;
+    margin: auto;
+    cursor: pointer;
+}
